@@ -1,0 +1,92 @@
+*{
+ box-sizing: border-box;
+ padding: 0;
+ margin: 0;
+}
+
+body{
+ background-image:url(./OIF.jpg) ;
+ background-repeat: no-repeat;
+ image-rendering: pixelated;
+ background-size: cover;
+ background-position: 50% 50%;
+ height: 100vh;
+ margin: 0;
+ font-size: 20px;
+ line-height: 1.8;
+}
+
+nav{
+ font-family: sans-serif;
+ font-weight: lighter;
+ list-style-type: none;
+}
+
+
+a{
+ color: white;
+ text-decoration: none;
+ font-weight: lighter;
+}
+.menu li{
+ font-size: 10px;
+ padding: 10px 30px;
+ margin: 0;
+}
+
+.topcontrol{
+ display: flex;
+ align-items: center;
+ padding: 10px 30px;
+}
+
+.menu{
+ display: flex;
+ align-items: center;
+}
+
+.headlogo a{
+ font-size: 20px;
+}
+
+
+.headlogo{
+ margin-right: auto;
+
+}
+
+.headlogo,h1
+{
+ font-family:'Amatic SC',cursive ;
+}
+h1{
+ font-size: 50px;
+ margin-bottom: 5px;
+ font-weight: 100;
+ line-height: 1.8;
+ padding-top: 150px;
+}
+p{
+ font-size: 15px;
+ font-family: sans-serif;
+}
+
+.reach{
+ max-width: 500px;
+ color: white;
+ padding: 10px;
+ margin: auto;
+text-align: center;
+}
+
+button{
+ margin-top: 15px;
+ padding: 10px 25px;
+ border: 0;
+ background-color:rgba(255, 68, 0, 0.86);
+ text-transform: uppercase;
+ font-size: 10px;
+ color:whitesmoke;
+ font-weight: 100;
+ cursor: pointer;
+}
